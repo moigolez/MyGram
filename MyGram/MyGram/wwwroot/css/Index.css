@@ -1,0 +1,74 @@
+﻿:root {
+    --imageWidthHeight: 180px;
+    --imageWidthHeightMainImages: 100px;
+}
+
+
+#MainContainer {
+    width: 100%;
+}
+
+#MainProfileInformation {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #MainProfileInformation img {
+        width: var(--imageWidthHeight);
+        height: var(--imageWidthHeight);
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 50%;
+    }
+
+.GramButtons {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.FontBold {
+    font-weight: bold;
+}
+
+#SectionsTable {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Options {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#OptionsTable {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Sections img {
+    width: var(--imageWidthHeightMainImages);
+    height: var(--imageWidthHeightMainImages);
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+#MainImagesContainer {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MainImages img {
+    width: 200px;
+    height: 200px;
+}
+
