@@ -69,3 +69,112 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    --headerColor: red;
+    --tableHeaderFontColor: white;
+    --tableHeaderBgColor: green;
+    --tableFontSize: 3rem;
+    --tableHeaderFontColorBig: white;
+    --tableHeaderBgColorBig: red;
+    --tableFontSizeBig: 1rem;
+}
+
+#Header {
+    color: var(--headerColor);
+}
+
+
+#MainContainer {
+    width: 100%;
+}
+
+#MainProfileInformation {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MainProfileInformation img {
+        width: 180px;
+        height: 180px;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 50%;
+    }
+
+.GramButtons {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.FontBold {
+    font-weight: bold;
+}
+
+#SectionsTable {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Options {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#OptionsTable {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Sections img {
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+#MainImagesContainer {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MainImages img {
+    width: 200px;
+    height: 200px;
+}
+
+.Sections {
+    color: var(--headerColor);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+   
+    
+@media only screen and (max-width: 480px) {
+    .Sections tbody tr {
+        background-color: var(--tableHeaderBgColor);
+        color: var(--tableHeaderFontColor);
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .Sections tbody tr {
+        background-color: var(--tableHeaderBgColorBig);
+        color: var(--tableHeaderFontColorBig);
+    }
+}

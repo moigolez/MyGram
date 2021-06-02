@@ -14,7 +14,7 @@
     margin-right: auto;
 }
 
-    #MainProfileInformation img {
+#MainProfileInformation img {
         width: var(--imageWidthHeight);
         height: var(--imageWidthHeight);
         border-color: black;
@@ -72,3 +72,30 @@
     height: 200px;
 }
 
+#Header {
+    color: var(--tableHeaderBgColor);
+}
+
+@media only screen and (max-width: 480px){
+    .HeaderClass {
+        background-color: var(--tableHeaderBgColor);
+        color: var(--tableHeaderFontColor);
+        font-size: var(--tableFontSize);
+    }
+
+    .SectionsClass {
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .HeaderClass {
+        background-color: var(--tableHeaderBgColorBig);
+        color: var(--tableHeaderFontColorBig);
+        font-size: var(--tableFontSizeBig);
+    }
+
+    .SectionsClass {
+        grid-template-columns: auto auto auto;
+    }
+}
