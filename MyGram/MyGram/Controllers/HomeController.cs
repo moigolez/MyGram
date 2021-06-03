@@ -23,10 +23,33 @@ namespace MyGram.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Register()
+
+        {
+
+            return View();
+
+        }
+
+        public IActionResult SaveUser(string UserName, string Password)
+
+        {
+
+            string myResult =
+
+                "The user is: " + UserName +
+
+                " and the Password is: " + Password;
+
+            return Content(myResult);
+
+        }
+
+        public IActionResult UserProfileInformation()
         {
             return View();
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
@@ -35,3 +58,4 @@ namespace MyGram.Controllers
         }
     }
 }
+

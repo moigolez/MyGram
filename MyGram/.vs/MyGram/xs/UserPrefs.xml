@@ -1,27 +1,33 @@
 ﻿<Properties StartupConfiguration="{181EDF1B-8C6C-40A6-A2E6-61581E847639}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyGram/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyGram/Views/Home/Privacy.cshtml">
     <Files>
       <File FileName="MyGram/Startup.cs" Line="26" Column="18" />
       <File FileName="MyGram/Views/Home/Index.cshtml" />
       <File FileName="MyGram/Views/Shared/_Layout.cshtml" />
-      <File FileName="MyGram/Views/Home/Privacy.cshtml" />
+      <File FileName="MyGram/Views/Home/Privacy.cshtml" Line="6" Column="1" />
       <File FileName="MyGram/wwwroot/css/Index.css" />
-      <File FileName="MyGram/wwwroot/css/site.css" Line="172" Column="2" />
+      <File FileName="MyGram/wwwroot/css/site.css" />
       <File FileName="MyGram/Program.cs" />
+      <File FileName="MyGram/wwwroot/css/Orders.css" />
+      <File FileName="MyGram/Controllers/HomeController.cs" />
+      <File FileName="MyGram/wwwroot/css/UserProfile.css" />
+      <File FileName="MyGram/Views/Home/Register.cshtml" />
+      <File FileName="MyGram/Views/Home/UserProfileInformation.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyGram" expanded="True">
             <Node name="MyGram" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Privacy.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="Images" expanded="True" />
               </Node>
             </Node>
           </Node>
