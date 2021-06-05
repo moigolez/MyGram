@@ -13,7 +13,7 @@ a {
 }
 
 .btn-primary {
-  color: #fff;
+  color: red;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
@@ -177,4 +177,12 @@ html {
         background-color: var(--tableHeaderBgColorBig);
         color: var(--tableHeaderFontColorBig);
     }
+}
+
+.GramButtons {
+    background-color: #0095f6 !important;
+    color: white !important;
+    font-size: small;
+    border-radius: 4px;
+    text-decoration: none !important;
 }

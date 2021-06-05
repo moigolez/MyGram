@@ -352,3 +352,4 @@
 /Users/moigolez/Desktop/MyGramCS115/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.genruntimeconfig.cache
 /Users/moigolez/Desktop/MyGramCS115/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/Register.cshtml.g.cs
 /Users/moigolez/Desktop/MyGramCS115/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/UserProfileInformation.cshtml.g.cs
+/Users/moigolez/Desktop/MyGramCS115/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/CalendarView.cshtml.g.cs

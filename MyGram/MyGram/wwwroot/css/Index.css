@@ -24,7 +24,7 @@
     }
 
 .GramButtons {
-    background-color: blue;
+    background-color: dodgerblue;
     color: white;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
@@ -47,9 +47,8 @@
 }
 
 #OptionsTable {
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 #Sections img {
@@ -98,4 +97,13 @@
     .SectionsClass {
         grid-template-columns: auto auto auto;
     }
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.first-day {
+    grid-column-start: 3;
 }

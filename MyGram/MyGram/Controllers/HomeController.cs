@@ -23,6 +23,11 @@ namespace MyGram.Controllers
             return View();
         }
 
+        public IActionResult CalendarView()
+        {
+            return View();
+        }
+
         public IActionResult Register()
 
         {
