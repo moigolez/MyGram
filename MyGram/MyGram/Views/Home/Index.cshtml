@@ -5,53 +5,46 @@
 <link rel="stylesheet" href="~/css/Index.css" />
 
 <div id="MainContainer">
-    <table id="MainProfileInformation">
-        <tbody>
-            <tr>
-                <td rowspan="3">
-                    <img src="https://i.pinimg.com/originals/4e/64/7a/4e647abd2f8c16af867ad64a5cc0b04c.jpg" />
-                </td>
-                <td>
-                    <span>Moises Golez</span>
-                </td>
-                <td>
-                    <button class="GramButtons">Follow</button>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
+    <div class="OurClass container-fluid">
+
+        <div class="row">
+
+
+            <div class="offset-1 col-6 FirstColumn">
+                <img src="https://i.pinimg.com/originals/4e/64/7a/4e647abd2f8c16af867ad64a5cc0b04c.jpg"
+                     class="rounded-circle" width="100" height="100" />
+            </div>
+
+
+            <div class="col-4 SecondColumn">
+                <span>Moises Golez</span>
+                <button class="GramButtons">Follow</button>
+                <div>
                     <span class="FontBold">6</span>
                     <span>Posts</span>
                     <span class="FontBold">No</span>
                     <span>Followers</span>
                     <span class="FontBold">0</span>
                     <span>Following</span>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
+                </div>
+                <div>
                     <span>This is an example description</span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <div id="SectionsTable">
-        <table id="Sections">
-            <tbody>
-                <tr>
-                    <td>
-                        <img src="https://cdn.cnn.com/cnnnext/dam/assets/200713132223-delta-airlines-0403-full-169.jpg" />
-                        <br>
-                        <span>My Airline</span>
-                    </td>
-                    <td>
-                        <img src="https://i0.wp.com/softwareengineeringdaily.com/wp-content/uploads/2019/09/delta-airlines-750x437.jpg?resize=730%2C389&ssl=1" />
-                        <br>
-                        <span>Keep Climbing</span>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                </div>
+            </div>
+            <div class="offset-1 align-self-center col-3 ThirdColumn">
+                <img src="https://cdn.cnn.com/cnnnext/dam/assets/200713132223-delta-airlines-0403-full-169.jpg"
+                     class="rounded-circle" width="50" height="50" />
+                <span>My Airline</span>
+            </div>
+            <div class="align-self-center col-3 FourthColumn">
+                <img src="https://i0.wp.com/softwareengineeringdaily.com/wp-content/uploads/2019/09/delta-airlines-750x437.jpg?resize=730%2C389&ssl=1"
+                     class="rounded-circle" width="50" height="50" />
+
+                <span>Keep Climbing</span>
+            </div>
+
+        </div>
+
     </div>
     <div id="Options">
         <table id="OptionsTable">
@@ -69,7 +62,7 @@
                     <td>
                         <span>TAGGED</span>
                     </td>
-                    
+
                     <td>
                         <a href="/Home/CalendarView"><span>View By Calendar</span></a>
 
@@ -113,3 +106,5 @@
     </div>
 
 </div>
+
+
