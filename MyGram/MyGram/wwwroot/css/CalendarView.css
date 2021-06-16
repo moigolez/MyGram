@@ -71,3 +71,21 @@
     padding-right: 5px;
     padding-bottom: 5px;
 }
+
+
+tr {
+    line-height: 25px;
+    height: 25%;
+    border: 2px black;
+}
+
+table {
+    height: 100%
+}
+
+
+#table table-bordered {
+    width: 14.29%;
+    display: flex;
+    justify-content: flex-end;
+}
